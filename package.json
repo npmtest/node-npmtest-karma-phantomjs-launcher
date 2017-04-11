@@ -1,1 +1,40 @@
-{     "devDependencies": {         "karma-phantomjs-launcher": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-karma-phantomjs-launcher",     "homepage": "https://github.com/npmtest/node-npmtest-karma-phantomjs-launcher",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-karma-phantomjs-launcher.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [karma-phantomjs-launcher (v1.0.4)](https://github.com/karma-runner/karma-phantomjs-launcher#readme) [![npm package](https://img.shields.io/npm/v/npmtest-karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-phantomjs-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "karma-phantomjs-launcher": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-karma-phantomjs-launcher",
+    "keywords": [
+        "coverage",
+        "test",
+        "karma-phantomjs-launcher"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_karma_phantomjs_launcher.js",
+    "name": "npmtest-karma-phantomjs-launcher",
+    "nameAlias": "npmtest_karma_phantomjs_launcher",
+    "nameOriginal": "npmtest-karma-phantomjs-launcher",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-karma-phantomjs-launcher.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
