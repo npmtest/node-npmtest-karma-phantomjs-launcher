@@ -1,7 +1,10 @@
-# test coverage for  [karma-phantomjs-launcher (v1.0.4)](https://github.com/karma-runner/karma-phantomjs-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-phantomjs-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher)
+# npmtest-karma-phantomjs-launcher
+
+#### test coverage for  [karma-phantomjs-launcher (v1.0.4)](https://github.com/karma-runner/karma-phantomjs-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-phantomjs-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher)
+
 #### A Karma plugin. Launcher for PhantomJS.
 
-[![NPM](https://nodei.co/npm/karma-phantomjs-launcher.png?downloads=true)](https://www.npmjs.com/package/karma-phantomjs-launcher)
+[![NPM](https://nodei.co/npm/karma-phantomjs-launcher.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/karma-phantomjs-launcher)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-karma-phantomjs-launcher/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-karma-phantomjs-launcher/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-karma-phantomjs-launcher%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-karma-phantomjs-launcher%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/test-report.html](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/screenCapture.npmPackageListing.svg)
 
@@ -27,104 +36,80 @@
 
 {
     "author": {
-        "name": "Vojta Jina",
-        "email": "vojta.jina@gmail.com"
+        "name": "Vojta Jina"
     },
     "bugs": {
         "url": "https://github.com/karma-runner/karma-phantomjs-launcher/issues"
     },
     "contributors": [
         {
-            "name": "Vojta Jina",
-            "email": "vojta.jina@gmail.com"
+            "name": "Vojta Jina"
         },
         {
-            "name": "Friedel Ziegelmayer",
-            "email": "dignifiedquire@gmail.com"
+            "name": "Friedel Ziegelmayer"
         },
         {
-            "name": "Mark Ethan Trostler",
-            "email": "mark@zzo.com"
+            "name": "Mark Ethan Trostler"
         },
         {
-            "name": "Shinnosuke Watanabe",
-            "email": "snnskwtnb@gmail.com"
+            "name": "Shinnosuke Watanabe"
         },
         {
-            "name": "Jurko Gospodnetić",
-            "email": "jurko.gospodnetic@pke.hr"
+            "name": "Jurko Gospodnetić"
         },
         {
-            "name": "Friedel Ziegelmayer",
-            "email": "friedel.ziegelmayer@gmail.com"
+            "name": "Friedel Ziegelmayer"
         },
         {
-            "name": "Sylvain Hamel",
-            "email": "sylvainhamel0@gmail.com"
+            "name": "Sylvain Hamel"
         },
         {
-            "name": "Huafu Gandon",
-            "email": "huafu.gandon@gmail.com"
+            "name": "Huafu Gandon"
         },
         {
-            "name": "Dan Siwiec",
-            "email": "daniel.siwiec@gmail.com"
+            "name": "Dan Siwiec"
         },
         {
-            "name": "Rob Barreca",
-            "email": "rob.barreca@inmobi.com"
+            "name": "Rob Barreca"
         },
         {
-            "name": "Sergey Bondarenko",
-            "email": "enterit@gmail.com"
+            "name": "Sergey Bondarenko"
         },
         {
-            "name": "nherzing",
-            "email": "nherzing@gmail.com"
+            "name": "nherzing"
         },
         {
-            "name": "Chad Smith",
-            "email": "chad@configit.com"
+            "name": "Chad Smith"
         },
         {
-            "name": "sylvain-hamel",
-            "email": "sylvainhamel0@gmail.com"
+            "name": "sylvain-hamel"
         },
         {
-            "name": "Edward Hutchins",
-            "email": "eahutchins@gmail.com"
+            "name": "Edward Hutchins"
         },
         {
-            "name": "Eryk Napierała",
-            "email": "eryk.piast@gmail.com"
+            "name": "Eryk Napierała"
         },
         {
-            "name": "Jason Dobry",
-            "email": "jason.dobry@gmail.com"
+            "name": "Jason Dobry"
         },
         {
-            "name": "Joel Mukuthu",
-            "email": "jmu@one.com"
+            "name": "Joel Mukuthu"
         },
         {
-            "name": "Jonathan Park",
-            "email": "jpark@daptiv.com"
+            "name": "Jonathan Park"
         },
         {
-            "name": "Leigh Tarasenko",
-            "email": "leightarasenko@gmail.com"
+            "name": "Leigh Tarasenko"
         },
         {
-            "name": "Mark Derbecker",
-            "email": "mark.derbecker@seeq.com"
+            "name": "Mark Derbecker"
         },
         {
-            "name": "Mark Trostler",
-            "email": "mark@zzo.com"
+            "name": "Mark Trostler"
         },
         {
-            "name": "Nick Malaguti",
-            "email": "nmalaguti@palantir.com"
+            "name": "Nick Malaguti"
         }
     ],
     "dependencies": {
@@ -165,20 +150,16 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "vojtajina",
-            "email": "vojta.jina+npm@gmail.com"
+            "name": "vojtajina"
         },
         {
-            "name": "zzo",
-            "email": "mark@zzo.com"
+            "name": "zzo"
         },
         {
-            "name": "dignifiedquire",
-            "email": "dignifiedquire@gmail.com"
+            "name": "dignifiedquire"
         },
         {
-            "name": "karmarunnerbot",
-            "email": "karmarunnerbot@gmail.com"
+            "name": "karmarunnerbot"
         }
     ],
     "name": "karma-phantomjs-launcher",
@@ -186,7 +167,6 @@
     "peerDependencies": {
         "karma": ">=0.9"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/karma-runner/karma-phantomjs-launcher.git"
