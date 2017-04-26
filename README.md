@@ -1,6 +1,6 @@
 # npmtest-karma-phantomjs-launcher
 
-#### test coverage for  [karma-phantomjs-launcher (v1.0.4)](https://github.com/karma-runner/karma-phantomjs-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-phantomjs-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher)
+#### basic test coverage for  [karma-phantomjs-launcher (v1.0.4)](https://github.com/karma-runner/karma-phantomjs-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-phantomjs-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-phantomjs-launcher)
 
 #### A Karma plugin. Launcher for PhantomJS.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-karma-phantomjs-launcher/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-karma-phantomjs-launcher/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-karma-phantomjs-launcher/build/coverage.html/index.html)
 
@@ -174,7 +174,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.0.4"
+    "version": "1.0.4",
+    "bin": {}
 }
 ```
 
